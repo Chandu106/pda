@@ -12,12 +12,13 @@ flavor_cost_dict = {
 flavor = "biriyani"
 cost = return_cost(flavor_cost_dict, flavor)
 print("The cost of" ,flavor, "is", cost)
+
 flavor = "mint"
 cost = return_cost(flavor_cost_dict, flavor)
 print("The cost of" ,flavor, "is", cost)
 
 #4b
-def chararacter_count():
+def character_count():
   string_input=str(input())
   b=[]
   c=[]
@@ -30,4 +31,4 @@ def chararacter_count():
 
   result=dict(zip(b,c))
   print(result)
-chararacter_count()
+character_count()
